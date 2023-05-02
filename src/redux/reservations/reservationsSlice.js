@@ -1,14 +1,14 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 const getReservations = createAsyncThunk('reservations/getReservations', async (id) => {
-  const resp = await fetch(`http://localhost:3000/api/v1/users/${id}/reservations`)
+  const resp = await fetch(`https://autumn-wood-4029.fly.dev/api/v1/users/${id}/reservations`)
     .then((resp) => resp.json())
     .then((result) => result);
   return resp;
 });
 
 const addReservation = createAsyncThunk('reservations/addReservation', async (obj, id) => {
-  const response = await fetch(`http://localhost:3000/api/v1/users/${id}/reservations`, {
+  const response = await fetch(`https://autumn-wood-4029.fly.dev/api/v1/users/${id}/reservations`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

@@ -1,14 +1,14 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 const getDoctorsData = createAsyncThunk('doctors/getDoctorsData', async () => {
-  const resp = await fetch('http://localhost:3000/api/v1/doctors')
+  const resp = await fetch('https://autumn-wood-4029.fly.dev/api/v1/doctors')
     .then((resp) => resp.json())
     .then((result) => result);
   return resp;
 });
 
 const addDoctor = createAsyncThunk('doctors/addDoctor', async (obj) => {
-  const response = await fetch('http://localhost:3000/api/v1/doctors', {
+  const response = await fetch('https://autumn-wood-4029.fly.dev/api/v1/doctors', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -19,7 +19,7 @@ const addDoctor = createAsyncThunk('doctors/addDoctor', async (obj) => {
 });
 
 const deleteDoctor = createAsyncThunk('doctors/deleteDoctor', async (id) => {
-  const resp = await fetch(`http://localhost:3000/api/v1/doctors/${id}`, {
+  const resp = await fetch(`https://autumn-wood-4029.fly.dev/api/v1/doctors/${id}`, {
     method: 'Delete',
   })
     .then((resp) => resp.json())

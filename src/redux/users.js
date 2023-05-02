@@ -4,7 +4,7 @@ const initialState = {
   users: null,
 };
 
-const URL = 'http://127.0.0.1:3000/api/v1/users';
+const URL = 'https://autumn-wood-4029.fly.dev/api/v1/users';
 
 export const fetchUser = createAsyncThunk(
   'users/fetchUser',
