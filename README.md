@@ -80,7 +80,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Live Demo here.](https://doctors-reservations.netlify.app/)
+[Live Demo here.](https://doctor-reservations.netlify.app/)
 
 ## Kanban board <a name="kanban-board"></a>
 
@@ -97,7 +97,7 @@ The 4 members of the project team are:
 
 ## Doctors Reservations Backend
 
-[Back End App](https://github.com/JonahKayizzi/Doctors-Reservations-Backend)
+[Back End App](https://github.com/Camilovelag/Doctors-Reservations-Backend)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,7 +166,7 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Cesar Alberto Valencia Aguilar**
+👤 **Cesar Valencia**
 
 - GitHub: [@cvalencia1991](https://github.com/cvalencia1991)
 - Twitter: [@cvalenciaguilar](https://twitter.com/cvalenciaguilar)
